@@ -1,0 +1,26 @@
+{
+    "manifest_version": 3,
+    "name": "Tabnapping detection",
+    "version": "1.0",
+    "permissions": [
+      "tabs",
+      "activeTab",
+      "storage",
+      "notifications"
+    ],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": {
+        "16": "lock.png",
+        "48": "lock.png",
+        "128": "lock.png"
+    }
+       },
+    "background": {
+        "service_worker": "background.js"
+    },
+    "host_permissions": [
+      "<all_urls>"
+    ]
+  }
+  

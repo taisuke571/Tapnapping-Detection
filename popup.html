@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Tab Screenshots</title>
+   
+    <style>
+        img {
+            max-width: 100%;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .container {
+            margin-bottom: 20px;
+        }
+    </style>
+</head>
+<body>
+   
+    <div class="container">
+        <h2 id="percentDifference">Percentage difference: Not calculated yet</h2>
+        <h2>Current Tab Screenshot</h2>
+        <img id="screenshot" alt="No screenshot available">
+        <p id="executedStatus"></p>
+        <p id="status"></p>
+        <p id="currentTabId"></p>
+    </div>
+    <div class="container">
+        <h2>All Tabs Screenshots</h2>
+        <div id="allTabsScreenshots"></div>
+    </div>
+    <script src="abc.js"></script>
+    <script src="resemble.js"></script>
+    <script src="popup.js"></script>
+</body>
+</html>
